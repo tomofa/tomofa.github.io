@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CSS Document */
+/* arao.html */
+*{
+	box-sizing: border-box;
+}
+	body{
+	background-color: #DDF7F9;
+	font-family: "Inter","BlinkMacSystemFont",Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	
+}
+
+p{
+margin: 0;
+padding: 0
+}
+
+.hearding a{
+	float: right;
+	text-decoration: none;
+	color: #000000;
+}
+
+.shot-wrapper{
+	width: 1120px;
+	margin: 120px auto;
+	text-align: center;
+}
+
+.shot-wrapper p{
+	width: 50px;
+	float: left;
+	color: #6DC7D0;
+	
+}
+.shot-wrapper a{
+	text-decoration: none;
+	
+}
+
+.shot-container{
+	margin-top:100px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
+.shot-titile{
+	
+	float: right;
+	padding:5px 10px;
+	margin:30px;
+	
+	font-style: italic;
+}
+.shot-titile ul{
+	padding-left: 0;
+}
+.shot-titile li{
+	list-style: none;
+	margin:0 5px;
+	padding: 5px 20px;
+	display: inline;
+	background-color: antiquewhite;
+	border-radius: 5px;
+}
+.shot{
+	clear: both;
+	width: 100%;
+	
+	
+}
+.shot img{
+	margin: 100px 0;
+}
+
+
+
+.border{
+	border: 1px solid #AEADAD;
+}
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80%;
+}
+ 
+#page-top a {
+    display: block;
+    background: #6DC7D0;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+#page-top a i{
+	font-size: 20px;
+    color:#fff;
+    line-height: 50px;
+}
+ 
+#page-top a:hover {
+    background: #999;
+    text-decoration: none;
+}
+
+/* About */
+
+
+.about-container{
+
+	padding: 100px;
+}
+
+
+.about-container h3{
+	font-size: 30px;
+	letter-spacing: 4px;
+
+}
+
+.career{
+	text-align: left;
+	margin-top:100px;
+}
+
+.year{
+	width: 30%;
+	float: left;
+}
+
+.career ul{
+	width:65%;
+	float: left;
+	padding:0;
+	margin: 0 0 50px;
+}
+.career li{
+	list-style: none;
+}
+
+.career-title{
+	font-weight: bold;
+	margin-bottom:5px;
+}
+.career-overview{
+	color:#1B879A;
+}
+
+.clear{
+	clear: both;
+}
+/* tablet (1120px以下)*/
+@media(max-width: 1120px){
+	.shot-wrapper{
+		width: 100%;
+	}
+	.shot-wrapper p{
+		float: none;
+		margin-left: 30px;
+	}
+	.about-container{
+		padding: 30px;
+	}
+	.career ul{
+		width: 70%;
+	}
+	#page-top a:hover {
+    background: #6DC7D0;
+}
+}
+/* tablet (670px以下)*/
+@media(max-width: 670px){
+	.shot-wrapper{
+		margin: 50px auto;
+	}
+	.shot-wrapper p{
+		
+		float: none;
+		margin:0 auto 50px;
+	}
+	h1{
+		font-size:30px;
+	}
+	h2{
+		font-size: 20px;
+		margin: 0;
+	}
+	.shot-container{
+		margin-top: 50px;
+	}
+	.shot-titile{
+		float: none;
+		font-size: 15px;
+	}
+	.shot-titile ul{
+		margin-top: 80px;
+	}
+	.shot-titile li{
+		display: block;
+		margin: 13px 5px;
+	}
+	.shot{
+		padding-bottom: 100px;
+	}
+	.shot img{
+		    margin: 0 0;
+    width: 80%;
+	}
+	#page-top a{
+		width: 50px;
+		height: 50px;
+	}
+	#page-top a i{
+        font-size: 20px;
+        line-height: 50px;	
+	}
+	/* About */
+	.about-container{
+		padding: 2%;
+	}
+	
+	.year{
+		float: none;
+		border-bottom: #747373 1px solid;
+		margin-bottom: 5px;
+		width: 100%;
+		padding-left: 30px;
+	}
+	.career ul{
+    width: 90%;
+    float: none;
+    margin: 0 auto 50px;
+	}
+	
+}

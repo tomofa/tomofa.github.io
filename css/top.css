@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: "Inter","BlinkMacSystemFont",Arial,sans-serif;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	
+}
+div{
+	margin: 0;
+	padding: 0;
+}
+
+.top-wrapper{
+	background-color:aqua;
+	height:1000px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+
+h1{
+	font-size:60px;
+	margin: 0;
+	padding: 500px;
+
+}
+
+.top-wrapper img{
+	width:300px;
+	float: left;
+}
