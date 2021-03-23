@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WORK | GOTO TOMOMI</title>
+<link rel="stylesheet" href="../css/web.css">
+<script src="../js/jquery-3.4.1.min.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="shot-wrapper">
+		<p><a href="../index.html"><img src="../images/compass.svg" alt=""></a>HOME</p>
+		<h1>スカルプシャンプー『EX』</h1>
+		<h2>GRAPHIC</h2>
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>Panel</li>
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/ex_panel.jpg" width="800" height="" alt="EXパネル" class="border"/></div>
+  </div>
+　　	 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>Round POP</li>
+		  <li>Attention seal</li>
+		  <li>POP</li>
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/ex_sp.jpg" alt="EXspツール" class="border"></div>
+  </div>
+
+	</div>
+	<p id="page-top"><a href="#"><i class="fas fa-chevron-up"></i></a></p>
+	
+
+<script>
+$(function(){
+// TOPに戻るボタン
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+var w = $(window).width();
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スムーススクロールでページトップへ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+</body>
+</html>

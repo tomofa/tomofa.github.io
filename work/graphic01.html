@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WORK | GOTO TOMOMI</title>
+<link rel="stylesheet" href="../css/web.css">
+<script src="../js/jquery-3.4.1.min.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="shot-wrapper">
+	<p><a href="../index.html"><img src="../images/compass.svg" alt=""></a>HOME</p>
+		<h1>リーフレットなど</h1>
+		<h2>GRAPHIC</h2>
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>Flyer</li>
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/ex_flyer_rakten.jpg" width="600" height="" alt="ex_楽天5冠達成" class="border"/></div>
+  </div>
+　　	 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        
+		  <li>Flyer</li>
+		  
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/ex_flyer_why.jpg" alt="ex_なぜ1位がとれないのか" class="border"></div>
+  </div>
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>POP</li>
+		  
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/ex_pop.jpg" alt="ex_なぜ1位がとれないのか" class="border"></div>
+  </div>
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+       
+		  <li>Leaflet</li>
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/magic_leaf.jpg" alt="マジックリーフレット" class="border"></div>
+  </div>
+
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>Poster</li>
+		 
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/baseball_poster.jpg" alt="野球選手募集" class="border"></div>
+  </div>
+	 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>Pamphlet</li>
+		 
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/baseball_pamphlet.jpg" alt="野球大会パンフレット" class="border"></div>
+  </div>
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        <li>Catalog</li>
+		  <li>Leaflet</li>
+		  <li>POP</li>
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/bib_sp.jpg" alt="スポーツウェアSPツール" class="border"></div>
+  </div>
+		 <div class="shot-container">
+    <div class="shot-titile">
+      <ul>
+        
+		  <li>Leaflet</li>
+      </ul>
+    </div>
+    <div class="shot"> <img src="../images/college_leaf.jpg" alt="大学院リーフレット" class="border"></div>
+  </div>
+		
+	</div>
+	<p id="page-top"><a href="#"><i class="fas fa-chevron-up"></i></a></p>
+	
+
+<script>
+$(function(){
+// TOPに戻るボタン
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+var w = $(window).width();
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スムーススクロールでページトップへ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+</body>
+</html>
