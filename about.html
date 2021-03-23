@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WORK | GOTO TOMOMI</title>
+<link rel="stylesheet" href="css/web.css">
+<script src="js/jquery-3.4.1.min.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="shot-wrapper">
+	<p><a href="index.html"><img src="images/compass.svg" alt=""></a>HOME</p>
+		<div class="clear"></div>
+		<div class="hearding">
+			<h1>About</h1>
+		<h2></h2>
+		</div>
+		 <div class="shot-container about">
+   
+    <div class="about-container">
+		<img src="images/about-self-portrait.svg" width="135" height="" alt="写真" />
+		
+			<h3>後 藤　友 美</h3>
+		   <div class="about-text">
+			   創造社デザイン専門学校卒（2001年）
+			   <div class="career">
+			   <div class="year">2001年04月〜2003年06月</div>
+			   
+			   <ul>
+			   <li class="career-title">株式会社対策室トライシステム事業部＿正社員</li>
+				   <li class="career-overview">主に紙媒体制作のクライアント打合せ〜入稿まで</li>
+				   <li>スポーツメーカー販促ツールデザイン（ポスター、パンフレット、店頭POP）</li>
+			       <li>企業ロゴ・会社案内デザイン</li>
+				   <li>自社主催イベント企画・運営、ポスターなどツールデザイン</li>
+				   <li>自社webサービススタートアップにてPR担当、バナー・コンテンツデザイン、メルマガ作成</li>
+			   </ul>
+				   <div class="clear"></div>
+				 <div class="year">2003年07月〜2005年12月</div> 
+				    <ul>
+			   <li class="career-title">AZビジコム株式会社＿正社員</li>
+				   <li class="career-overview">主に紙媒体制作のクライアント打合せ〜入稿まで</li>
+				   <li>女性下着メーカー販促ツール（パンフレット）、イベント冊子デザイン</li>
+			       <li>家電メーカーPOPデザイン、サイトバナーデザイン</li>
+			   </ul>
+				  <div class="clear"></div>
+				  <div class="year">2006年01月〜2011年03月</div> 
+				    <ul>
+			   <li class="career-title">結婚・出産・育児</li>
+				   
+			   </ul>
+				   <div class="clear"></div>
+				 <div class="year">2011年04月〜2014年08月</div> 
+				    <ul>
+			   <li class="career-title">TAU　GRAPHIC＿アルバイト</li>
+				   <li class="career-overview">主に紙媒体制作のデザイン</li>
+				   <li>地域フリーペーパー紙面・広告デザイン</li>
+			       <li>介護定期冊子の特集イラスト</li>
+						<li>商品ロゴ</li>
+						<li>自社商品イラスト</li>
+						<li>自社サイトのブログ、商品撮影、商品企画、ライティング</li>
+			   </ul>
+				   <div class="clear"></div>
+				   <div class="year">2014年09月〜2021年01月</div> 
+				    <ul>
+			   <li class="career-title">株式会社アルファウェイ＿パート</li>
+				   <li class="career-overview">主に自社商品webサイト更新、新規デザインと販促ツールのデザイン〜入稿まで</li>
+				   <li>ブランドサイトの更新、新規デザイン</li>
+			       <li>モールサイト（楽天・Yahoo・Amazon）更新、新規デザイン</li>
+						<li>販促ツールデザイン</li>
+						<li>ロゴ制作</li>
+						<li>モールサイト管理</li>
+						<li>LPデザイン</li>
+						<li>制作進行管理・スタッフ教育</li>
+						<li>社内業務マニュアル作成・営業用資料作成・提案資料作成</li>
+						<li>メルマガ作成</li>
+			   </ul>
+				   <div class="clear"></div>
+				    <div class="year">2019年04月〜2020年03月</div>
+				    <ul>
+			   <li class="career-title">株式会社Balance＿業務委託</li>
+				   <li class="career-overview">主に外注指示・資料作成</li>
+				   <li>大学イベント用ツール作成、webサムネール作成</li>
+			       <li>大学サイト更新外注指示</li>
+						<li>大学病院サイトリニューアルプロジェクトにて外注指示、マニュアル作成、確認業務</li>
+						<li>新規提案用ワイヤーフレーム作成</li>
+						<li>web用画像リタッチ</li>
+						<li>LPデザイン</li>
+						<li>大学サイト更新作業</li>
+						
+			   </ul>
+				   <div class="clear"></div>
+				</div>
+			   
+			</div>
+		
+			 </div>
+  </div>
+	
+　　	
+		
+	</div>
+<p id="page-top"><a href="#"><i class="fas fa-chevron-up"></i></a></p>
+	
+
+<script>
+$(function(){
+// TOPに戻るボタン
+var topBtn = $('#page-top');
+topBtn.hide();
+//スクロールが100に達したらボタン表示
+$(window).scroll(function () {
+var w = $(window).width();
+if ($(this).scrollTop() > 100) {
+topBtn.fadeIn();
+} else {
+topBtn.fadeOut();
+}
+});
+//スムーススクロールでページトップへ
+topBtn.click(function () {
+$('body,html').animate({
+scrollTop: 0
+}, 500);
+return false;
+});
+});
+</script>
+</body>
+</html>
