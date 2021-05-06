@@ -23,15 +23,37 @@ div{
 	background-color: #FFFFFF;
 }
 /* Header */
-header {
-	width: 1120px;
+header{
+	border-bottom: solid 4px #6DC7D0;
+}
+.header-container {
+	max-width: 1200px;
 	margin: 0 auto;
-	
+	padding: 0 4%;
 	height: 100px;
 	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
 }
 
+.logo-container{
+	display: flex;
+	align-items: center;
+}
+
+.compass{
+	width: 30px;
+	margin-right: 10px;
+}
+.logo{
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: 4px;
+	
+}
+/*
 .compass{
 	width: 30px;
 	margin-right: 10px;
@@ -51,21 +73,21 @@ header {
 	font-size: 22px;
 	float:left;
 }
+*/
 
 header a{
 	text-decoration: none;
 	color: #000000;
 	font-size:20px;
-	float: right;
 	margin:80px 30px 0 0;
 	letter-spacing: 2px;
 	border-bottom:none;
-	transition: border-bottom 0.5s linear;
+
 	
 }
 
 header a:hover{
-	border-bottom: 2px solid #000000;
+	opacity: 0.5;
 	
 }
 
@@ -296,23 +318,9 @@ footer {
 		height: 100px;
 		margin: 0 auto;
 	}
-	.compass{
-	width: 50px;
-	line-height: normal;
-	margin-top: 30px;
 	
-}
 
-.logo {
-	width: 50%;
-	text-align: left;
-	margin-top: 7px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-size: 25px;
-	line-height: 1.5em;
-}
+
 
 /* wave */
 .custom-shape-divider-bottom-1615429636 {
